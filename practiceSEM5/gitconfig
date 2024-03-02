@@ -1,0 +1,33 @@
+// config git globally
+git config global user.name "YOUR GITHUB USER NAME"
+git config global user.email "YOUT GITHUB EMAIL"
+// to list the info of yours 
+git config --list
+
+// to add perticular folder to github
+// connect git and git hub via https using token(in dev setting github)
+
+// to connect the git-hub repo via git 
+git remote set-url origin https://<token>@github.com/<username>/<repo>
+
+my person token (expires on 2mar2025)
+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
+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
+
+git remote set-url origin https://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@github.com/
+
+//how to commit local file to github server 
+
+git add (FILE NAME)
+// OR 
+git add . //to add the entire folder
+
+// now commit the file 
+git commit -m"COMMENT YOUR CHANGES HEAR"
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/SyedAzherAli/Java-Programming.git
+git push -u origin main
