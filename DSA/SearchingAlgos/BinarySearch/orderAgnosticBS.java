@@ -10,8 +10,8 @@ public class orderAgnosticBS {
 
     static int orderAgnosticbs(int[] array, int target) {
         int start = 0; // first index value
-        int end = array.length - 1; // last index value
-
+        int end = array.length - 1; // last index 
+        
         // finding the sorted array is accending or decending
         boolean isAsc = array[start] < array[end];
 

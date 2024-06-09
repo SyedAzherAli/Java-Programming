@@ -15,7 +15,7 @@ public class celingBS {
             
             int mid = start + (end - start)/2 ;
 
-            if(target <= array[mid]) {
+            if(target <= array[mid]) { //just we have to change == to <= hear for cealing number
                 return mid;
             }
 
