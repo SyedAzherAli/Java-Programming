@@ -1,0 +1,14 @@
+
+# Ignore log files
+*.log
+
+# Ignore compiled files
+*.class
+*.o
+*.out
+
+# Ignore personal IDE configuration
+.idea/
+.vscode/
+
+	
