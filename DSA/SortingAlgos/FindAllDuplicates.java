@@ -1,5 +1,3 @@
-package com.kunal;
-
 import java.util.ArrayList;
 import java.util.List;
 // https://leetcode.com/problems/find-all-duplicates-in-an-array/

@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
 // hear we have to find the first and last index of the repeating element in an array 
 // for ex arr = {1,2,3,4,5,5,5,5,5,6,,7,9}; hear tha target is 5 and first index of it's is 4 and lst is 8
-public class ltcd34 {
+public class firstLastIndex {
     public static void main(String[] args) {
         
     }

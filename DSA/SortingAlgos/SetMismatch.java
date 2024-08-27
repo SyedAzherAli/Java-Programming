@@ -1,4 +1,3 @@
-package com.kunal;
 // https://leetcode.com/problems/set-mismatch/
 public class SetMismatch {
     public int[] findErrorNums(int[] arr) {

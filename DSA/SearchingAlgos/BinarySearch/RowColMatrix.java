@@ -3,7 +3,7 @@ public class RowColMatrix {
     public static void main(String[] args) {
         int[][] nums = { {1,2,3},{4,5,6},{7,8,9} };
         int target = 5;
-        int[] ans = bnrySrc2D(nums, 5);
+        int[] ans = bnrySrc2D(nums, target);
         System.out.println(Arrays.toString(ans));
     }
     //binary search in 2d sorted array 

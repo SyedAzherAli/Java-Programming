@@ -16,9 +16,15 @@ public class arraylist {
         list.add(7);
         System.out.print(list + " ");
         //use to know element contain in the array
-        System.out.println(list.contains(6));
+        System.out.println(list.contains(6)); //if 6 contains it will give output as ture 
         // use to remove the element from the array using index number 
         list.remove(6);
+        list.remove(5);
+        list.remove(4);
+        list.remove(3);
+        list.remove(2);
+        list.remove(1);
+        list.remove(0);
         System.out.println(list);
 
         //input 
